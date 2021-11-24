@@ -5,7 +5,7 @@ This is a simple task manager site where you can
 * delete
 * update
 
-certain tasks.
+desired tasks.
 
 
 ## Technologies Used
