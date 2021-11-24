@@ -5,9 +5,10 @@ This is a simple task manager site where you can
 * delete
 * update
 
-certain tasks.
+certain files.
+
 
 ## Technologies Used
-* Flask
-* Python
-* SQL
+* [Flask][https://flask.palletsprojects.com/]
+* [Python][https://www.python.org/]
+* [SQL][https://www.mysql.com/]
