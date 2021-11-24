@@ -9,6 +9,6 @@ certain tasks.
 
 
 ## Technologies Used
-* [Flask][https://flask.palletsprojects.com/]
-* [Python][https://www.python.org/]
-* [SQL][https://www.mysql.com/]
+* [Flask](https://flask.palletsprojects.com/)
+* [Python](https://www.python.org/)
+* [SQL](https://www.mysql.com/)
