@@ -9,7 +9,7 @@ db = SQLAlchemy(app) #initializing the database
 class Todo(db.Model): #creating the model for the database
     id = db.Column(db.Integer, primary_key = True) #columns
     content = db.Column(db.String(200), nullable = False) #limits the user from creating a task and leaving the content empty
-    date_created = db.Column(db.DateTime, default = datetime.utcnow)
+    date_created = db.Column(db.DateTime, default = datetime.utcnow) #gets the date created
 
     def __repr__(self):
         return '<Task %r>' % self.id
@@ -27,7 +27,7 @@ def index():
             db.session.commit()
             return redirect('/')
         except:
-            return 'There was an issue adding your task'
+            return 'There was an issue adding your task'  #catching errors
     else:
         tasks = Todo.query.order_by(Todo.date_created).all() #you can change all to first to get the most recent one
         return render_template('index.html', tasks=tasks)
